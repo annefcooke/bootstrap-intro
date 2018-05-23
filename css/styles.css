@@ -1,0 +1,32 @@
+.navbar {
+  border-radius: 0;
+  margin-bottom:0;
+
+}
+
+.jumbotron {
+  background: linear-gradient(lightblue, white);
+  margin-bottom: 0;
+}
+
+.jumbotron .btn {
+  background-color: grey;
+  border-color: grey;
+  border-radius: 0;
+}
+
+.row button {
+  margin: 5% 10%;
+
+
+}
+.carousel img {
+  margin:auto;
+  width:100%
+}
+
+
+footer {
+  background: linear-gradient(white, lightblue);
+
+}

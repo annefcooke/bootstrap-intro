@@ -4,9 +4,239 @@
     <meta charset="utf-8">
     <title>Bootstrap Intro</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Bootstrap Intro</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Link</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Page 1</a></li>
+                  <li><a href="#">Page 2</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form navbar-left">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Link</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+      <div class="jumbotron">
+        <div class="container">
+          <h1>Hello, world!</h1>
+          <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+        </div>
+      </div>
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-xs-8 col-xx-8">
+          <h2>Header</h2>
+          <p class="text-justify">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia.</p>
+        </div>
+
+        <div class="col-xs-4 col-xx-4">
+          <h2>Header</h2>
+          <p class="text-justify">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <br>
+
+    <div class="container">
+
+      <div class="row">
+        <img class="col-xs-3 col-xx-3" src="https://www.fillmurray.com/460/300" alt="FillMurray">
+        <img class="col-xs-3 col-xx-3" src="https://www.fillmurray.com/460/300" alt="FillMurray">
+        <img class="col-xs-3 col-xx-3" src="https://www.fillmurray.com/460/300" alt="FillMurray">
+        <img class="col-xs-3 col-xx-3" src="https://www.fillmurray.com/460/300" alt="FillMurray">
+      </div>
+
+    </div>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-xs-3 col-xx-3">
+          <button type="button" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+          </button>
+          <button type="button" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>
+          </button>
+        </div>
+
+        <div class="col-xs-3 col-xx-3">
+          <button type="button" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-ok-circle" aria-hidden="true"></span>
+          </button>
+          <button type="button" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+          </button>
+        </div>
+
+        <div class="col-xs-3 col-xx-3">
+          <button type="button" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+          </button>
+          <button type="button" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>
+          </button>
+        </div>
+
+        <div class="col-xs-3 col-xx-3">
+          <button type="button" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-ok-circle" aria-hidden="true"></span>
+          </button>
+          <button type="button" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+
+    <br>
+
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="https://images.unsplash.com/photo-1510775585803-c010deda8f1f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=18c369e1ea43fa03bcfae9eb7384bbaa&auto=format&fit=crop&w=500&q=60" alt="...">
+          <div class="carousel-caption">
+            <h3>Image 1</h3>
+            <p>Text about image</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://images.unsplash.com/photo-1517383503967-edf012bf14f5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dcb1470645a7680542d2bffa67989d82&auto=format&fit=crop&w=500&q=60" alt="...">
+          <div class="carousel-caption">
+            <h3>Image 2</h3>
+            <p>Text about image</p>
+          </div>
+        </div>
+          <div class="item">
+            <img src="https://images.unsplash.com/photo-1509486952655-66ae56df4747?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a67789760c6f106ea9bb6b8f33ffba1d&auto=format&fit=crop&w=500&q=60" alt="...">
+            <div class="carousel-caption">
+              <h3>Image 3</h3>
+              <p>Text about image</p>
+            </div>
+          </div>
+        </div>
+
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!-- Footer -->
+<footer class="page-footer font-small blue pt-4 mt-4">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+
+      <div class="col-xs-12 col-xx-12">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">More</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">FAQs</a>
+          </li>
+          <li>
+            <a href="#!">Careers</a>
+          </li>
+          <li>
+            <a href="#!">Contacts</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
 
 
 
